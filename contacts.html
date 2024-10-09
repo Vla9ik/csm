@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241009134155">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header-top">
+			<div class="header-top__container">
+				<button type="button" class="menu-burger">
+					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" viewBox="0 0 32 20" fill="none">
+						<path d="M4.91675 3.66667H27.0834C27.5033 3.66667 27.9061 3.49985 28.203 3.20292C28.4999 2.90599 28.6667 2.50326 28.6667 2.08333C28.6667 1.66341 28.4999 1.26068 28.203 0.963748C27.9061 0.666815 27.5033 0.5 27.0834 0.5H4.91675C4.49682 0.5 4.09409 0.666815 3.79716 0.963748C3.50023 1.26068 3.33341 1.66341 3.33341 2.08333C3.33341 2.50326 3.50023 2.90599 3.79716 3.20292C4.09409 3.49985 4.49682 3.66667 4.91675 3.66667ZM30.2501 8.41667H1.75008C1.33016 8.41667 0.927428 8.58348 0.630496 8.88041C0.333563 9.17735 0.166748 9.58007 0.166748 10C0.166748 10.4199 0.333563 10.8227 0.630496 11.1196C0.927428 11.4165 1.33016 11.5833 1.75008 11.5833H30.2501C30.67 11.5833 31.0727 11.4165 31.3697 11.1196C31.6666 10.8227 31.8334 10.4199 31.8334 10C31.8334 9.58007 31.6666 9.17735 31.3697 8.88041C31.0727 8.58348 30.67 8.41667 30.2501 8.41667ZM27.0834 16.3333H4.91675C4.49682 16.3333 4.09409 16.5001 3.79716 16.7971C3.50023 17.094 3.33341 17.4967 3.33341 17.9167C3.33341 18.3366 3.50023 18.7393 3.79716 19.0363C4.09409 19.3332 4.49682 19.5 4.91675 19.5H27.0834C27.5033 19.5 27.9061 19.3332 28.203 19.0363C28.4999 18.7393 28.6667 18.3366 28.6667 17.9167C28.6667 17.4967 28.4999 17.094 28.203 16.7971C27.9061 16.5001 27.5033 16.3333 27.0834 16.3333Z" fill="#590068" />
+					</svg>
+				</button>
+				<div class="header-top__wrap">
+					<a href="#" class="header-top__logo"><img src="img/logo.svg" alt="logo"></a>
+					<div class="header-top__search">
+						<div class="header-top__numbers">
+							<a href="tel:+380443443497">+38(044) 344-34-97</a>
+							<a href="tel:+380632059768">+38(063) 205-97-68</a>
+						</div>
+						<form data-da=".mobile-menu__content, 992" class="search" action="#">
+							<div class="input">
+								<input autocomplete="off" type="text" name="search" placeholder="">
+								<button type="submit"><img src="img/header/search.svg" alt="search"></button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="header-top__time time-block">
+					<span>Пн.-Нд. 08:30 - 20:00 (кол-центр)</span>
+					<span>Пн.-Нд. 09:00 - 21:00 (клініка)</span>
+				</div>
+				<div class="header-top__languages">
+					<div class="header-top__active-language"><span>UA</span><img src="img/header/arrow.svg" alt="arrow"></div>
+					<ul class="header-top__list">
+						<li>
+							<a href="#">RU</a>
+						</li>
+						<li>
+							<a href="#">EN</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header-top__mobile mobile-menu">
+				<div class="mobile-menu__content">
+					<div class="mobile-menu__header">
+						<a href="#" class="mobile-menu__logo"><img src="img/logo.svg" alt="logo"></a>
+						<button type="button" class="menu-burger">
+							<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
+								<path d="M21.2324 19L28.0407 12.2075C28.3389 11.9094 28.5064 11.505 28.5064 11.0833C28.5064 10.6617 28.3389 10.2573 28.0407 9.95918C27.7426 9.66103 27.3382 9.49353 26.9166 9.49353C26.4949 9.49353 26.0906 9.66103 25.7924 9.95918L18.9999 16.7675L12.2074 9.95918C11.9093 9.66103 11.5049 9.49353 11.0832 9.49353C10.6616 9.49353 10.2572 9.66103 9.95907 9.95918C9.66092 10.2573 9.49342 10.6617 9.49342 11.0833C9.49342 11.505 9.66092 11.9094 9.95907 12.2075L16.7674 19L9.95907 25.7925C9.81067 25.9397 9.69288 26.1148 9.61249 26.3078C9.53211 26.5007 9.49072 26.7077 9.49072 26.9167C9.49072 27.1257 9.53211 27.3326 9.61249 27.5256C9.69288 27.7185 9.81067 27.8936 9.95907 28.0408C10.1063 28.1892 10.2814 28.307 10.4743 28.3874C10.6673 28.4678 10.8742 28.5092 11.0832 28.5092C11.2923 28.5092 11.4992 28.4678 11.6922 28.3874C11.8851 28.307 12.0602 28.1892 12.2074 28.0408L18.9999 21.2325L25.7924 28.0408C25.9396 28.1892 26.1147 28.307 26.3077 28.3874C26.5006 28.4678 26.7076 28.5092 26.9166 28.5092C27.1256 28.5092 27.3325 28.4678 27.5255 28.3874C27.7184 28.307 27.8935 28.1892 28.0407 28.0408C28.1891 27.8936 28.3069 27.7185 28.3873 27.5256C28.4677 27.3326 28.5091 27.1257 28.5091 26.9167C28.5091 26.7077 28.4677 26.5007 28.3873 26.3078C28.3069 26.1148 28.1891 25.9397 28.0407 25.7925L21.2324 19Z" fill="#590068" />
+							</svg>
+						</button>
+					</div>
+					<div class="mobile-menu__languages">
+						<a href="#" class="mobile-menu__language active">UA</a>
+						<a href="#" class="mobile-menu__language">RU</a>
+						<a href="#" class="mobile-menu__language">EN</a>
+					</div>
+				</div>
+				<nav class="mobile-menu__body">
+					<div class="mobile-menu__lists">
+						<!-- first level -->
+						<ul class="mobile-menu__list first-level">
+							<li class="mobile-menu__item"><a href="#" data-level-id="#about" class="mobile-menu__link">Про нас</a></li>
+							<li class="mobile-menu__item"><a href="#" data-level-id="#adults" class="mobile-menu__link">Дорослим</a></li>
+							<li class="mobile-menu__item"><a href="#" data-level-id="#children" class="mobile-menu__link">Дітям</a></li>
+							<li class="mobile-menu__item"><a href="#" data-level-id="#doctors" class="mobile-menu__link">Лікарі</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Ціни</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакти</a></li>
+						</ul>
+						<!-- second level -->
+						<ul id="about" class="mobile-menu__list second-level">
+							<li class="mobile-menu__item"><a data-level-id="#about" href="#" class="mobile-menu__link-back">Про нас</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Напрямки</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Послуги</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Захворювання</a></li>
+						</ul>
+						<ul id="adults" class="mobile-menu__list second-level">
+							<li class="mobile-menu__item"><a data-level-id="#adults" href="#" class="mobile-menu__link-back">Дорослим</a></li>
+							<li class="mobile-menu__item"><a data-level-id="#services" href="#" class="mobile-menu__link">Напрямки</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Послуги</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Захворювання</a></li>
+						</ul>
+						<ul id="children" class="mobile-menu__list second-level">
+							<li class="mobile-menu__item"><a data-level-id="#children" href="#" class="mobile-menu__link-back">Дітям</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Напрямки</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Послуги</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Захворювання</a></li>
+						</ul>
+						<ul id="doctors" class="mobile-menu__list second-level">
+							<li class="mobile-menu__item"><a data-level-id="#doctors" href="#" class="mobile-menu__link-back">Лікарі</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Напрямки</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Послуги</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Захворювання</a></li>
+						</ul>
+						<!-- third level -->
+						<ul id="services" class="mobile-menu__list third-level">
+							<li class="mobile-menu__item"><a data-level-id="#services" href="#" class="mobile-menu__link-back">Послуги</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Гіпербарична оксигенація (ГБО)</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Гіпокситерапія</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Лабораторні аналізи</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Лазеротерапія</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Лікувальний масаж</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Магнітотерапія високочастотна</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Магнітотерапія низькочастотна</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Спрямована контактна діатермія - TR-терапія</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Нейроенергокартування</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Оксигенотерапія</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Ультразвукова терапія</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Ударно-хвильова терапія</a></li>
+						</ul>
+					</div>
+					<button data-popup="#popup" type="button" class="mobile-menu__popup">записатися</button>
+					<div class="mobile-menu__time time-block">
+						<span>Пн.-Нд. 08:30 - 20:00 (кол-центр)</span>
+						<span>Пн.-Нд. 09:00 - 21:00 (клініка)</span>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<header class="header-sticky">
+			<div class="header-sticky__container">
+				<ul class="header-sticky__list">
+					<li class="header-sticky__item link-about">
+						<a href="#" class="header-sticky__link">
+							<h3 class="header-sticky__title">
+								<span>Про нас</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+									<g clip-path="url(#clip0_2051_1815)">
+										<path d="M15.4075 7.87415L11.2 12.0725L6.99251 7.87415L5.70001 9.16665L11.2 14.6666L16.7 9.16665L15.4075 7.87415Z" fill="#590068" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2051_1815">
+											<rect width="22" height="22" fill="white" transform="translate(0.200012)" />
+										</clipPath>
+									</defs>
+								</svg>
+							</h3>
+						</a>
+						<div class="link-about__wrapper">
+							<ul class="link-about__list">
+								<li class="link-about__item">
+									<a href="#" class="link-about__link">Про ЦСМ</a>
+								</li>
+								<li class="link-about__item">
+									<a href="#" class="link-about__link">Відгуки</a>
+								</li>
+								<li class="link-about__item">
+									<a href="#" class="link-about__link">Вакансії</a>
+								</li>
+								<li class="link-about__item">
+									<a href="#" class="link-about__link">Ліцензії</a>
+								</li>
+								<li class="link-about__item">
+									<a href="#" class="link-about__link">Новини</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="header-sticky__item link-submenu">
+						<a href="#" class="header-sticky__link ">
+							<h3 class="header-sticky__title">
+								<span>Дорослим</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+									<g clip-path="url(#clip0_2051_1815)">
+										<path d="M15.4075 7.87415L11.2 12.0725L6.99251 7.87415L5.70001 9.16665L11.2 14.6666L16.7 9.16665L15.4075 7.87415Z" fill="#590068" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2051_1815">
+											<rect width="22" height="22" fill="white" transform="translate(0.200012)" />
+										</clipPath>
+									</defs>
+								</svg>
+							</h3>
+						</a>
+						<div class="link-submenu__wrapper">
+							<div class="link-submenu__content">
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Напрямки</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Абдомінальний масаж</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Гіпербарична оксигенація (ГБО)</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Гіпокситерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лабораторні аналізи</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лазеротерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лікувальний масаж</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Магнітотерапія високочастотна</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Магнітотерапія низькочастотна</a>
+										</li>
+									</ul>
+								</div>
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Послуги</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Спрямована контактна діатермія - TR-терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Нейроенергокартування</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Оксигенотерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ультразвукова терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ударно-хвильова терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Патопсихологічна діагностика</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Реабілітація після травм та ортопедичних операцій</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Рефлексотерапія</a>
+										</li>
+									</ul>
+								</div>
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Захворювання</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електроміостимуляція</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електроенцефалографія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ерготерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електрокардіографія (ЕКГ)</a>
+										</li>
+									</ul>
+									<div class="link-submenu__all">
+										<a href="#">
+											<span>Показати всі послуги</span>
+											<div class="link-submenu__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+													<path d="M13.7499 4.58329L12.4574 5.87579L16.6558 10.0833L1.83325 10.0833L1.83325 11.9166L16.6558 11.9166L12.4483 16.1241L13.7499 17.4166L20.1666 11L13.7499 4.58329Z" fill="#FF8A00" />
+												</svg>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="header-sticky__item link-submenu">
+						<a href="#" class="header-sticky__link ">
+							<h3 class="header-sticky__title">
+								<span>Дітям</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+									<g clip-path="url(#clip0_2051_1815)">
+										<path d="M15.4075 7.87415L11.2 12.0725L6.99251 7.87415L5.70001 9.16665L11.2 14.6666L16.7 9.16665L15.4075 7.87415Z" fill="#590068" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2051_1815">
+											<rect width="22" height="22" fill="white" transform="translate(0.200012)" />
+										</clipPath>
+									</defs>
+								</svg>
+							</h3>
+						</a>
+						<div class="link-submenu__wrapper">
+							<div class="link-submenu__content">
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Напрямки</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Абдомінальний масаж</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Гіпербарична оксигенація (ГБО)</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Гіпокситерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лабораторні аналізи</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лазеротерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лікувальний масаж</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Магнітотерапія високочастотна</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Магнітотерапія низькочастотна</a>
+										</li>
+									</ul>
+								</div>
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Послуги</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Спрямована контактна діатермія - TR-терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Нейроенергокартування</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Оксигенотерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ультразвукова терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ударно-хвильова терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Патопсихологічна діагностика</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Реабілітація після травм та ортопедичних операцій</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Рефлексотерапія</a>
+										</li>
+									</ul>
+								</div>
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Захворювання</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електроміостимуляція</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електроенцефалографія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ерготерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електрокардіографія (ЕКГ)</a>
+										</li>
+									</ul>
+									<div class="link-submenu__all">
+										<a href="#">
+											<span>Показати всі послуги</span>
+											<div class="link-submenu__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+													<path d="M13.7499 4.58329L12.4574 5.87579L16.6558 10.0833L1.83325 10.0833L1.83325 11.9166L16.6558 11.9166L12.4483 16.1241L13.7499 17.4166L20.1666 11L13.7499 4.58329Z" fill="#FF8A00" />
+												</svg>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="header-sticky__item link-submenu">
+						<a href="#" class="header-sticky__link ">
+							<h3 class="header-sticky__title">
+								<span>Лікарі</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+									<g clip-path="url(#clip0_2051_1815)">
+										<path d="M15.4075 7.87415L11.2 12.0725L6.99251 7.87415L5.70001 9.16665L11.2 14.6666L16.7 9.16665L15.4075 7.87415Z" fill="#590068" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2051_1815">
+											<rect width="22" height="22" fill="white" transform="translate(0.200012)" />
+										</clipPath>
+									</defs>
+								</svg>
+							</h3>
+						</a>
+						<div class="link-submenu__wrapper">
+							<div class="link-submenu__content">
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Напрямки</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Абдомінальний масаж</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Гіпербарична оксигенація (ГБО)</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Гіпокситерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лабораторні аналізи</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лазеротерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Лікувальний масаж</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Магнітотерапія високочастотна</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Магнітотерапія низькочастотна</a>
+										</li>
+									</ul>
+								</div>
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Послуги</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Спрямована контактна діатермія - TR-терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Нейроенергокартування</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Оксигенотерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ультразвукова терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ударно-хвильова терапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Патопсихологічна діагностика</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Реабілітація після травм та ортопедичних операцій</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Рефлексотерапія</a>
+										</li>
+									</ul>
+								</div>
+								<div class="link-submenu__column">
+									<h4 class="link-submenu__title">Захворювання</h4>
+									<ul class="link-submenu__list">
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електроміостимуляція</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електроенцефалографія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Ерготерапія</a>
+										</li>
+										<li class="link-submenu__item">
+											<a href="#" class="link-submenu__link">Електрокардіографія (ЕКГ)</a>
+										</li>
+									</ul>
+									<div class="link-submenu__all">
+										<a href="#">
+											<span>Показати всі послуги</span>
+											<div class="link-submenu__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+													<path d="M13.7499 4.58329L12.4574 5.87579L16.6558 10.0833L1.83325 10.0833L1.83325 11.9166L16.6558 11.9166L12.4483 16.1241L13.7499 17.4166L20.1666 11L13.7499 4.58329Z" fill="#FF8A00" />
+												</svg>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="header-sticky__item">
+						<a href="#" class="header-sticky__link">Ціни</a>
+					</li>
+					<li class="header-sticky__item">
+						<a href="#" class="header-sticky__link">Контакти</a>
+					</li>
+				</ul>
+				<button data-popup="#popup" type="button" class="header-sticky__btn">записатися</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="form-section">
+				<div class="form-section__container">
+					<div class="form-section__header">
+						<div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" class="form-section__address">
+							<div class="form-section__icon">
+								<img src="img/form/address.png" alt="Image">
+							</div>
+							<div class="form-section__content">
+								<div class="form-section__label">Адреса:</div>
+								<address>м. Київ, вул. Гагаріна 37А</address>
+							</div>
+						</div>
+						<div data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" class="form-section__numbers">
+							<div class="form-section__icon">
+								<img src="img/form/phone.png" alt="Image">
+							</div>
+							<div class="form-section__content">
+								<div class="form-section__label">Телефон:</div>
+								<div class="form-section__phones">
+									<a href="tel:+">+38(044) 344-34-97</a>
+									<a href="tel:+">+38(063) 205-97-68</a>
+								</div>
+							</div>
+						</div>
+						<div data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" class="form-section__time">
+							<div class="form-section__icon">
+								<img src="img/form/time.png" alt="Image">
+							</div>
+							<div class="form-section__content">
+								<div class="form-section__label">Час роботи:</div>
+								<span>Пн.-Нд. 08:30 - 20:00
+									(кол-центр)</span>
+								<span>Пн.-Нд. 09:00 - 21:00
+									(клініка)</span>
+							</div>
+						</div>
+					</div>
+					<div data-aos="zoom-in" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" class="form-section__wrapper">
+						<h2 data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" class="form-section__title">Запишіться на прийом </h2>
+						<form action="#">
+							<div class="form-section__inputs">
+								<div data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" class="form-section__input">
+									<label for="name">Ваше ім'я</label>
+									<input id="name" autocomplete="off" type="text" name="name" placeholder="Введить ваше ім`я">
+								</div>
+								<div data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" class="form-section__input">
+									<label for="number">Номер телефону</label>
+									<input id="number" class="number" autocomplete="off" type="text" name="name" placeholder="+380 ( _ _ ) ____-  __-__">
+								</div>
+							</div>
+							<button data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true" type="submit" class="form-section__submit">записатися</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__info">
+						<a href="#" class="footer__logo"><img src="img/footer/logo.svg" alt="logo"></a>
+						<div class="footer__deal">Реєстраційне досьє від 20.10.2021
+							№ 4586/21</div>
+						<div class="footer__year">© 2012-2024 ТОВ «Клініка ЦСМ</div>
+					</div>
+					<div class="footer__links">
+						<div class="footer__column-links">
+							<a href="#" class="footer__link">Про нас</a>
+							<a href="#" class="footer__link">Дорослим</a>
+							<a href="#" class="footer__link">Дітям</a>
+							<a href="#" class="footer__link">Лікарі</a>
+						</div>
+						<div class="footer__column-links">
+							<a href="#" class="footer__link">Ціни</a>
+							<a href="#" class="footer__link">Партнерство</a>
+							<a href="#" class="footer__link">Контакти</a>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<div class="footer__numbers">
+							<a href="tel:+380443443494">+38(044) 344-34-97</a>
+							<a href="tel:+380632059768">+38(063) 205-97-68</a>
+						</div>
+						<a href="mailto:centermindst@gmail.com" class="footer__email">centermindst@gmail.com</a>
+					</div>
+					<div class="footer__date">
+						<span>Пн.-Нд. 08:30 - 20:00 (кол-центр)</span>
+						<span>Пн.-Нд. 09:00 - 21:00 (клініка)</span>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div data-da=".footer__container, 768, 0" class="footer__socials">
+						<a href="#">
+							<img src="img/footer/fb.svg" alt="Image">
+						</a>
+						<a href="#">
+							<img src="img/footer/inst.svg" alt="Image">
+						</a>
+						<a href="#">
+							<img src="img/footer/yt.svg" alt="Image">
+						</a>
+					</div>
+					<div class="footer__other">
+						<a href="#">Карта сайту</a>
+						<a href="#">Договір оферти</a>
+						<a href="#">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241009134155"></script>
+</body>
+
+</html>
