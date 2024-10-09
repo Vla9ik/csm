@@ -4332,7 +4332,7 @@
                     nextEl: ".doctors__swiper-button-next"
                 },
                 breakpoints: {
-                    375: {
+                    320: {
                         slidesPerView: 1.4,
                         spaceBetween: 15,
                         centeredSlides: true
@@ -4364,7 +4364,7 @@
                     nextEl: ".methods__swiper-button-next"
                 },
                 breakpoints: {
-                    375: {
+                    320: {
                         slidesPerView: 1.5,
                         centeredSlides: true,
                         spaceBetween: 15
@@ -4396,9 +4396,9 @@
                     nextEl: ".reviews__swiper-button-next"
                 },
                 breakpoints: {
-                    375: {
+                    320: {
                         slidesPerView: 1,
-                        spaceBetween: 0,
+                        spaceBetween: 10,
                         autoHeight: true
                     },
                     679: {
@@ -4420,9 +4420,9 @@
                 spaceBetween: 0,
                 speed: 800,
                 breakpoints: {
-                    375: {
+                    320: {
                         slidesPerView: 1.25,
-                        spaceBetween: 0,
+                        spaceBetween: 15,
                         autoHeight: true
                     },
                     768: {

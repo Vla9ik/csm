@@ -18,7 +18,7 @@
 body,
 html {
   height: 100%;
-  min-width: 375px
+  min-width: 360px
 }
 body {
   color: #000;
@@ -3150,7 +3150,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     margin-top: 3.375rem
   }
 }
-@media (max-width:23.4375em) {
+@media (max-width:22.5em) {
   .header-top {
     padding-top: 2.1875rem
   }
@@ -3216,57 +3216,57 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     column-gap: clamp(.75rem ,-2.6785714286rem + 7.1428571429vw ,1.75rem)
   }
 }
-@media (min-width:23.4375em)and (max-width:75.625em) {
+@media (min-width:22.5em)and (max-width:75.625em) {
   .header-top {
-    padding-top: clamp(2.1875rem ,1.9910179641rem + .8383233533vw ,2.625rem)
+    padding-top: clamp(2.1875rem ,2.0022058824rem + .8235294118vw ,2.625rem)
   }
   .header-top {
-    padding-bottom: clamp(2.1875rem ,1.9910179641rem + .8383233533vw ,2.625rem)
+    padding-bottom: clamp(2.1875rem ,2.0022058824rem + .8235294118vw ,2.625rem)
   }
   .footer {
-    padding-top: clamp(4.375rem ,3.3925898204rem + 4.1916167665vw ,6.5625rem)
+    padding-top: clamp(4.375rem ,3.4485294118rem + 4.1176470588vw ,6.5625rem)
   }
   .main-section__title {
-    font-size: clamp(1.875rem ,1.5943113772rem + 1.1976047904vw ,2.5rem)
+    font-size: clamp(1.875rem ,1.6102941176rem + 1.1764705882vw ,2.5rem)
   }
   .advantages__item {
-    padding-top: clamp(1.5625rem ,.6362275449rem + 3.9520958084vw ,3.625rem)
+    padding-top: clamp(1.5625rem ,.6889705882rem + 3.8823529412vw ,3.625rem)
   }
   .advantages__item {
-    padding-bottom: clamp(1.875rem ,1.4539670659rem + 1.7964071856vw ,2.8125rem)
+    padding-bottom: clamp(1.875rem ,1.4779411765rem + 1.7647058824vw ,2.8125rem)
   }
   .therapy__container {
-    padding-top: clamp(4.375rem ,3.8136227545rem + 2.3952095808vw ,5.625rem)
+    padding-top: clamp(4.375rem ,3.8455882353rem + 2.3529411765vw ,5.625rem)
   }
   .therapy__content {
-    padding-top: clamp(1.875rem ,1.0329341317rem + 3.5928143713vw ,3.75rem)
+    padding-top: clamp(1.875rem ,1.0808823529rem + 3.5294117647vw ,3.75rem)
   }
   .therapy__content {
-    padding-bottom: clamp(.625rem ,-.7784431138rem + 5.9880239521vw ,3.75rem)
+    padding-bottom: clamp(.625rem ,-.6985294118rem + 5.8823529412vw ,3.75rem)
   }
   .reviews {
-    padding-top: clamp(2.625rem ,2.2881736527rem + 1.4371257485vw ,3.375rem)
+    padding-top: clamp(2.625rem ,2.3073529412rem + 1.4117647059vw ,3.375rem)
   }
   .reviews {
-    padding-bottom: clamp(2.625rem ,1.2776946108rem + 5.748502994vw ,5.625rem)
+    padding-bottom: clamp(2.625rem ,1.3544117647rem + 5.6470588235vw ,5.625rem)
   }
   .reviews__item {
-    padding-bottom: clamp(1.5625rem ,1.0011227545rem + 2.3952095808vw ,2.8125rem)
+    padding-bottom: clamp(1.5625rem ,1.0330882353rem + 2.3529411765vw ,2.8125rem)
   }
   .form-section {
-    padding-top: clamp(4.6875rem ,1.7402694611rem + 12.5748502994vw ,11.25rem)
+    padding-top: clamp(4.6875rem ,1.9080882353rem + 12.3529411765vw ,11.25rem)
   }
   .form-section {
-    padding-bottom: clamp(4.6875rem ,1.1788922156rem + 14.9700598802vw ,12.5rem)
+    padding-bottom: clamp(4.6875rem ,1.3786764706rem + 14.7058823529vw ,12.5rem)
   }
   .form-section__header:not(:last-child) {
-    margin-bottom: clamp(3.75rem ,3.1886227545rem + 2.3952095808vw ,5rem)
+    margin-bottom: clamp(3.75rem ,3.2205882353rem + 2.3529411765vw ,5rem)
   }
   .news__date {
-    padding-bottom: clamp(1.25rem ,1.0254491018rem + .9580838323vw ,1.75rem)
+    padding-bottom: clamp(1.25rem ,1.0382352941rem + .9411764706vw ,1.75rem)
   }
   .info-block__text:not(:last-child) {
-    margin-bottom: clamp(1rem ,.7193113772rem + 1.1976047904vw ,1.625rem)
+    margin-bottom: clamp(1rem ,.7352941176rem + 1.1764705882vw ,1.625rem)
   }
 }
 @media (min-width:62em)and (max-width:68.75em) {
