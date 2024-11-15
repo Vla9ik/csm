@@ -1338,6 +1338,10 @@ body::after {
   width: 100%;
   transition: background-color .3s
 }
+.doctors_mod {
+  padding-top: 2.8125rem;
+  padding-bottom: 2.8125rem
+}
 .doctors__title {
   padding-top: 5rem;
   max-width: 75.625rem;
@@ -1612,6 +1616,11 @@ body::after {
 }
 .form-section {
   background: url(../img/form/bg.svg) 0 0/cover no-repeat
+}
+.form-section_mod {
+  padding-top: 2.8125rem!important;
+  padding-bottom: 2.8125rem!important;
+  background: 0 0!important
 }
 .form-section__wrapper {
   background: url(../img/form/decore-form.svg) 0 -67px/115% no-repeat #590068;
@@ -2107,7 +2116,7 @@ body::after {
 }
 .consultation-advantages__container {
   position: relative;
-  padding: 1.5625rem .9375rem 1.875rem
+  padding: 1.5625rem .9375rem 2.8125rem
 }
 .consultation-advantages__container::before {
   content: "";
@@ -2162,7 +2171,7 @@ body::after {
   line-height: 1.35
 }
 .consultation-symptoms {
-  padding: 1.5625rem 0
+  padding: 2.8125rem 0
 }
 .consultation-symptoms__title:not(:last-child) {
   margin-bottom: .3125rem
@@ -2253,7 +2262,7 @@ body::after {
   text-transform: uppercase
 }
 .consultation-illnesses {
-  padding-top: 1.5625rem
+  padding-top: 2.8125rem
 }
 .consultation-illnesses__title:not(:last-child) {
   margin-bottom: .3125rem
@@ -2307,7 +2316,7 @@ body::after {
   background: url(../img/therapy/purple-check.svg) 0 0/100% no-repeat
 }
 .certificates {
-  padding: 1.875rem 0
+  padding: 2.8125rem 0
 }
 .certificates__container {
   position: relative
@@ -2770,6 +2779,55 @@ body::after {
   content: "";
   -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg)
+}
+.methods-consultation {
+  padding-top: 2.8125rem;
+  padding-bottom: 2.8125rem
+}
+.methods-consultation__title {
+  font-family: "M PLUS Rounded 1c";
+  color: #590068;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.8;
+  text-transform: uppercase
+}
+.methods-consultation__items {
+  display: grid;
+  gap: .9375rem
+}
+.methods-consultation__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .9375rem
+}
+.methods-consultation__item {
+  border-radius: 50px;
+  padding: .9375rem 1.875rem;
+  min-height: 4.375rem;
+  background-color: #f8e1d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: .3125rem
+}
+.methods-consultation__subtitle {
+  color: #590068;
+  text-align: center;
+  font-family: "Roboto Flex";
+  font-weight: 700;
+  line-height: 1
+}
+.methods-consultation__label {
+  color: #590068;
+  text-align: center;
+  font-family: "Roboto Flex";
+  font-weight: 400;
+  line-height: 1
 }
 .swiper {
   overflow: hidden
@@ -4518,6 +4576,18 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   .spollers__title {
     font-size: 1.375rem
   }
+  .methods-consultation__title {
+    font-size: 1.5rem
+  }
+  .methods-consultation__title:not(:last-child) {
+    margin-bottom: 4rem
+  }
+  .methods-consultation__subtitle {
+    font-size: 1.25rem
+  }
+  .methods-consultation__label {
+    font-size: 1.25rem
+  }
 }
 @media (min-width:62em) {
   .popup__title {
@@ -5083,7 +5153,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     font-size: 1rem
   }
   .consultation-illnesses {
-    padding-bottom: 1.5625rem
+    padding-bottom: 2.1875rem
   }
   .consultation-illnesses__label {
     font-size: 1rem
@@ -5132,6 +5202,18 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
   .spollers__title {
     font-size: 1.125rem
+  }
+  .methods-consultation__title {
+    font-size: 1.125rem
+  }
+  .methods-consultation__title:not(:last-child) {
+    margin-bottom: 1.5625rem
+  }
+  .methods-consultation__subtitle {
+    font-size: 1rem
+  }
+  .methods-consultation__label {
+    font-size: 1rem
   }
 }
 @media (min-width:48em)and (max-width:62em) {
@@ -5250,7 +5332,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     font-size: clamp(1rem ,.8941176471rem + .4705882353vw ,1.25rem)
   }
   .consultation-illnesses {
-    padding-bottom: clamp(1.5625rem ,.9007352941rem + 2.9411764706vw ,3.125rem)
+    padding-bottom: clamp(2.1875rem ,1.7904411765rem + 1.7647058824vw ,3.125rem)
   }
   .consultation-illnesses__label {
     font-size: clamp(1rem ,.8941176471rem + .4705882353vw ,1.25rem)
@@ -5299,6 +5381,18 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
   .spollers__title {
     font-size: clamp(1.125rem ,1.0191176471rem + .4705882353vw ,1.375rem)
+  }
+  .methods-consultation__title {
+    font-size: clamp(1.125rem ,.9661764706rem + .7058823529vw ,1.5rem)
+  }
+  .methods-consultation__title:not(:last-child) {
+    margin-bottom: clamp(1.5625rem ,.5301470588rem + 4.5882352941vw ,4rem)
+  }
+  .methods-consultation__subtitle {
+    font-size: clamp(1rem ,.8941176471rem + .4705882353vw ,1.25rem)
+  }
+  .methods-consultation__label {
+    font-size: clamp(1rem ,.8941176471rem + .4705882353vw ,1.25rem)
   }
 }
 @media (min-width:62em)and (max-width:68.75em) {

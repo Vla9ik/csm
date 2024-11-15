@@ -5102,7 +5102,7 @@
                 modules: [ Navigation ],
                 observer: true,
                 observeParents: true,
-                slidesPerView: 1,
+                slidesPerView: 4,
                 spaceBetween: 0,
                 speed: 800,
                 navigation: {
